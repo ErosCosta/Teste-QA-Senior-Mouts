@@ -1,0 +1,21 @@
+{
+  "name": "teste-qa-senior-mouts",
+  "version": "1.0.0",
+  "description": "Projeto de teste QA Senior",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "dependencies": {
+    "cypress": "^13.0.0",
+    "cypress-multi-reporters": "^1.6.4",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.1"
+  }
+}
