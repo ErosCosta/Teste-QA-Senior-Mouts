@@ -3,14 +3,13 @@ name: Teste - QA Mouts
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 
 jobs:
   cypress-tests:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -21,24 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Cypress tests (headless)
+      - name: Run Cypress tests
         run: npx cypress run
-        env:
-          CYPRESS_BASE_URL: ${{ secrets.CYPRESS_BASE_URL }}
-
-      - name: Upload screenshots
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-
-      - name: Upload videos
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: cypress-videos
-          path: cypress/videos
 
       - name: Upload allure-results
         if: always()
@@ -48,44 +31,24 @@ jobs:
           path: allure-results
 
   publish-report:
-    runs-on: ubuntu-latest
     needs: cypress-tests
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    runs-on: ubuntu-latest
 
-      - name: Download allure-results artifact
+    steps:
+      - name: Download allure-results
         uses: actions/download-artifact@v4
         with:
           name: allure-results
-          path: ./allure-results
+          path: allure-results
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install Allure Commandline
-        run: npm install -g allure-commandline@2.13.0
+      - name: Install Allure CLI
+        run: sudo apt-get install -y allure
 
       - name: Generate Allure report
-        run: |
-          if [ -d "./allure-results" ]; then
-            allure generate ./allure-results -o ./allure-report --clean
-          else
-            echo "No allure-results found"
-            exit 0
-          fi
+        run: allure generate allure-results -o allure-report --clean
 
-      - name: Upload Allure report artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-report
-          path: allure-report
-
-      - name: Deploy Allure report to GitHub Pages
+      - name: Deploy report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
+          publish_dir: allure-report
