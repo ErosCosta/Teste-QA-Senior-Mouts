@@ -1,0 +1,37 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "3ca8a84dd5f45df3cc516d43f426099f",
+    "name" : "Produtos",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1b9e03e90b56cff9b4c8ae0233b961ca",
+    "name" : "Cadastro",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "14102d61eef2af473312d4f91dec531b",
+    "name" : "Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

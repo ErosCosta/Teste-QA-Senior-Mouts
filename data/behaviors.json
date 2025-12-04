@@ -1,0 +1,107 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Produtos",
+    "children" : [ {
+      "name" : "Busca de todos os produtos",
+      "children" : [ {
+        "name" : "Deve buscar todos os produtos e verificar a estrutura da resposta",
+        "uid" : "bc962caacb5e7d89",
+        "parentUid" : "ab4011006c2cd1d08a709ba34c3125c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1764851971704,
+          "stop" : 1764851971921,
+          "duration" : 217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab4011006c2cd1d08a709ba34c3125c8"
+    } ],
+    "uid" : "3ca8a84dd5f45df3cc516d43f426099f"
+  }, {
+    "name" : "Cadastro",
+    "children" : [ {
+      "name" : "Cadastro de Usuário com sucesso",
+      "children" : [ {
+        "name" : "Deve cadastrar um novo usuário com sucesso",
+        "uid" : "b6fbf5430ac2e724",
+        "parentUid" : "17fdaa24eb50f7316a709d310112a531",
+        "status" : "passed",
+        "time" : {
+          "start" : 1764851973579,
+          "stop" : 1764851973640,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deve realizar o cadastro de um novo usuário com sucesso",
+        "uid" : "5ab8d62661ff4014",
+        "parentUid" : "17fdaa24eb50f7316a709d310112a531",
+        "status" : "passed",
+        "time" : {
+          "start" : 1764851981239,
+          "stop" : 1764851986030,
+          "duration" : 4791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17fdaa24eb50f7316a709d310112a531"
+    } ],
+    "uid" : "1b9e03e90b56cff9b4c8ae0233b961ca"
+  }, {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "Login de Usuário com sucesso",
+      "children" : [ {
+        "name" : "Deve realizar o login e obter um token de autenticação",
+        "uid" : "22a8d7319223b0a",
+        "parentUid" : "03fbc3f9aea2319dddab8342274866b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1764851975908,
+          "stop" : 1764851975954,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deve realizar o login de um usuário cadastrado com sucesso",
+        "uid" : "4128fe0ff9ff3094",
+        "parentUid" : "03fbc3f9aea2319dddab8342274866b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1764851988003,
+          "stop" : 1764851989674,
+          "duration" : 1671
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03fbc3f9aea2319dddab8342274866b2"
+    } ],
+    "uid" : "14102d61eef2af473312d4f91dec531b"
+  }, {
+    "name" : "Deve buscar um produto e verificar se ele está na lista (admin/listarprodutos)",
+    "uid" : "87d224b6a6b5ba1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851978152,
+      "stop" : 1764851979529,
+      "duration" : 1377
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

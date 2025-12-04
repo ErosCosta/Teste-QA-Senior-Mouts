@@ -1,0 +1,119 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "cypress.e2e",
+    "children" : [ {
+      "name" : "api",
+      "children" : [ {
+        "name" : "busca_produtos_api.cy.js",
+        "children" : [ {
+          "name" : "Deve buscar todos os produtos e verificar a estrutura da resposta",
+          "uid" : "bc962caacb5e7d89",
+          "parentUid" : "062bf77bb3b2716b80eeb135d123d676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1764851971704,
+            "stop" : 1764851971921,
+            "duration" : 217
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "busca_produtos_api.cy.js"
+      }, {
+        "name" : "cadastro_usuario_api.cy.js",
+        "children" : [ {
+          "name" : "Deve cadastrar um novo usuário com sucesso",
+          "uid" : "b6fbf5430ac2e724",
+          "parentUid" : "171fcad9d52010f5a17f8b626fb3c802",
+          "status" : "passed",
+          "time" : {
+            "start" : 1764851973579,
+            "stop" : 1764851973640,
+            "duration" : 61
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cadastro_usuario_api.cy.js"
+      }, {
+        "name" : "login_api.cy.js",
+        "children" : [ {
+          "name" : "Deve realizar o login e obter um token de autenticação",
+          "uid" : "22a8d7319223b0a",
+          "parentUid" : "53685276c4c01e097c86746dd59e7e65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1764851975908,
+            "stop" : 1764851975954,
+            "duration" : 46
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "login_api.cy.js"
+      } ],
+      "uid" : "52c1c6691cec2a46768b2b19397839bb"
+    }, {
+      "name" : "frontend",
+      "children" : [ {
+        "name" : "busca_produto.cy.js",
+        "children" : [ {
+          "name" : "Deve buscar um produto e verificar se ele está na lista (admin/listarprodutos)",
+          "uid" : "87d224b6a6b5ba1b",
+          "parentUid" : "fa68ded872128792f06fd3ba28a5193b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1764851978152,
+            "stop" : 1764851979529,
+            "duration" : 1377
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "busca_produto.cy.js"
+      }, {
+        "name" : "cadastro_usuario.cy.js",
+        "children" : [ {
+          "name" : "Deve realizar o cadastro de um novo usuário com sucesso",
+          "uid" : "5ab8d62661ff4014",
+          "parentUid" : "1ccc18dc9841b4a978de650214a0a855",
+          "status" : "passed",
+          "time" : {
+            "start" : 1764851981239,
+            "stop" : 1764851986030,
+            "duration" : 4791
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cadastro_usuario.cy.js"
+      }, {
+        "name" : "login_usuario.cy.js",
+        "children" : [ {
+          "name" : "Deve realizar o login de um usuário cadastrado com sucesso",
+          "uid" : "4128fe0ff9ff3094",
+          "parentUid" : "3b2948ade9e5e438054bfc5a59c420b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1764851988003,
+            "stop" : 1764851989674,
+            "duration" : 1671
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "login_usuario.cy.js"
+      } ],
+      "uid" : "88c272609f23db889044ae121e7c01e5"
+    } ],
+    "uid" : "cypress.e2e"
+  } ]
+}

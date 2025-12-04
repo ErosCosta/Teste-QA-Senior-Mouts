@@ -1,0 +1,99 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API Tests",
+    "children" : [ {
+      "name" : "Deve buscar todos os produtos e verificar a estrutura da resposta",
+      "uid" : "bc962caacb5e7d89",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1764851971704,
+        "stop" : 1764851971921,
+        "duration" : 217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Deve realizar o login e obter um token de autenticação",
+      "uid" : "22a8d7319223b0a",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1764851975908,
+        "stop" : 1764851975954,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "faa16f93fe4deb7d0d82100941f2eb29"
+  }, {
+    "name" : "API",
+    "children" : [ {
+      "name" : "Deve cadastrar um novo usuário com sucesso",
+      "uid" : "b6fbf5430ac2e724",
+      "parentUid" : "14fa7b099890ed134a386db0936127bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1764851973579,
+        "stop" : 1764851973640,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14fa7b099890ed134a386db0936127bb"
+  }, {
+    "name" : "Cenário 3: Busca de Produtos (Admin) - /admin/listarprodutos",
+    "children" : [ {
+      "name" : "Deve buscar um produto e verificar se ele está na lista (admin/listarprodutos)",
+      "uid" : "87d224b6a6b5ba1b",
+      "parentUid" : "ca4a97505d82f5a5c07b4d6c77ef19b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1764851978152,
+        "stop" : 1764851979529,
+        "duration" : 1377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca4a97505d82f5a5c07b4d6c77ef19b7"
+  }, {
+    "name" : "Frontend E2E",
+    "children" : [ {
+      "name" : "Deve realizar o cadastro de um novo usuário com sucesso",
+      "uid" : "5ab8d62661ff4014",
+      "parentUid" : "eab5a4d70966dccfc0409d190dab3a1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1764851981239,
+        "stop" : 1764851986030,
+        "duration" : 4791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Deve realizar o login de um usuário cadastrado com sucesso",
+      "uid" : "4128fe0ff9ff3094",
+      "parentUid" : "eab5a4d70966dccfc0409d190dab3a1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1764851988003,
+        "stop" : 1764851989674,
+        "duration" : 1671
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eab5a4d70966dccfc0409d190dab3a1f"
+  } ]
+}

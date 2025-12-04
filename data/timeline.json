@@ -1,0 +1,83 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Deve realizar o login e obter um token de autenticação",
+    "uid" : "22a8d7319223b0a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851975908,
+      "stop" : 1764851975954,
+      "duration" : 46
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deve realizar o cadastro de um novo usuário com sucesso",
+    "uid" : "5ab8d62661ff4014",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851981239,
+      "stop" : 1764851986030,
+      "duration" : 4791
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deve buscar todos os produtos e verificar a estrutura da resposta",
+    "uid" : "bc962caacb5e7d89",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851971704,
+      "stop" : 1764851971921,
+      "duration" : 217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deve buscar um produto e verificar se ele está na lista (admin/listarprodutos)",
+    "uid" : "87d224b6a6b5ba1b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851978152,
+      "stop" : 1764851979529,
+      "duration" : 1377
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deve cadastrar um novo usuário com sucesso",
+    "uid" : "b6fbf5430ac2e724",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851973579,
+      "stop" : 1764851973640,
+      "duration" : 61
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Deve realizar o login de um usuário cadastrado com sucesso",
+    "uid" : "4128fe0ff9ff3094",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1764851988003,
+      "stop" : 1764851989674,
+      "duration" : 1671
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

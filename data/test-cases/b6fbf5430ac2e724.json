@@ -1,0 +1,108 @@
+{
+  "uid" : "b6fbf5430ac2e724",
+  "name" : "Deve cadastrar um novo usuário com sucesso",
+  "fullName" : "Deve cadastrar um novo usuário com sucesso",
+  "historyId" : "536673870f960a5254f5ad66810bde89",
+  "time" : {
+    "start" : 1764851973579,
+    "stop" : 1764851973640,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "request (\"{ method: 'POST', url: 'https://serverest.dev/usuarios', body: { nome: 'Usuário Teste', email: 'teste1764851973582@qa.com.br', password: '123456', administrador: 'true' } }\")",
+      "time" : {
+        "start" : 1764851973588,
+        "stop" : 1764851973629,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **Cadastro realizado com sucesso** to include **Cadastro realizado com sucesso**",
+      "time" : {
+        "start" : 1764851973639,
+        "stop" : 1764851973639,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Cadastro realizado com sucesso"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **201** to equal **201**",
+      "time" : {
+        "start" : 1764851973639,
+        "stop" : 1764851973639,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "201"
+      }, {
+        "name" : "expected",
+        "value" : "201"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "cypress.e2e.api.cadastro_usuario_api.cy.js"
+  }, {
+    "name" : "suite",
+    "value" : "API"
+  }, {
+    "name" : "feature",
+    "value" : "Cadastro"
+  }, {
+    "name" : "story",
+    "value" : "Cadastro de Usuário com sucesso"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6fbf5430ac2e724.json",
+  "parameterValues" : [ ]
+}

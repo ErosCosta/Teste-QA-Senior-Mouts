@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 04 12:39:38 UTC 2025","Thu Dec 04 12:39:39 UTC 2025","1377","","Cenário 3: Busca de Produtos (Admin) - /admin/listarprodutos","","","","Deve buscar um produto e verificar se ele está na lista (admin/listarprodutos)",""
+"passed","Thu Dec 04 12:39:31 UTC 2025","Thu Dec 04 12:39:31 UTC 2025","217","","API Tests","","","","Deve buscar todos os produtos e verificar a estrutura da resposta",""
+"passed","Thu Dec 04 12:39:48 UTC 2025","Thu Dec 04 12:39:49 UTC 2025","1671","","Frontend E2E","","","","Deve realizar o login de um usuário cadastrado com sucesso",""
+"passed","Thu Dec 04 12:39:35 UTC 2025","Thu Dec 04 12:39:35 UTC 2025","46","","API Tests","","","","Deve realizar o login e obter um token de autenticação",""
+"passed","Thu Dec 04 12:39:33 UTC 2025","Thu Dec 04 12:39:33 UTC 2025","61","","API","","","","Deve cadastrar um novo usuário com sucesso",""
+"passed","Thu Dec 04 12:39:41 UTC 2025","Thu Dec 04 12:39:46 UTC 2025","4791","","Frontend E2E","","","","Deve realizar o cadastro de um novo usuário com sucesso",""
